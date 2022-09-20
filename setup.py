@@ -1,9 +1,9 @@
 from setuptools import setup
 
 setup(
-    name = "abang.py",
+    name = "jewer.py",
     version = "0.1",
-    py_modules = ['abang'],
+    py_modules = ['jewer'],
     url = "https://github.com/indraxz/jewer.git",
     author = "cukai212",
     install_requires = ["pyngrok"]
