@@ -250,10 +250,8 @@ def _setupSSHDMain(public_key, tunnel, ngrok_region, mount_gdrive_to, mount_gdri
     print("Copy&paste your tunnel authtoken from https://dashboard.ngrok.com/auth")
     print("(You need to sign up for ngrok and login,)")
     #Set your ngrok Authtoken.
-    ngrok_token = 2EyAZfJjG6jcbe8FGSpwQw9aLLH_3kmXdjXqusom7o5AVyZcT
-    
-
-   
+    ngrok_token = "2EyAZfJjG6jcbe8FGSpwQw9aLLH_3kmXdjXqusom7o5AVyZcT"
+     
 
   return (True, _setupSSHDImpl(public_key, tunnel, ngrok_token, ngrok_region, mount_gdrive_to, mount_gdrive_from, is_VNC))
 
