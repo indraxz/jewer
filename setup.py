@@ -1,10 +1,10 @@
 from setuptools import setup
 
 setup(
-    name = "jewer.py",
+    name = "abang.py",
     version = "0.1",
-    py_modules = ['jewer'],
+    py_modules = ['abang'],
     url = "https://github.com/indraxz/jewer.git",
-    author = "indraxz",
+    author = "cukai212",
     install_requires = ["pyngrok"]
 )
