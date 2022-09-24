@@ -4,6 +4,8 @@ import secrets, json, re
 import IPython.utils.io
 import ipywidgets
 import pyngrok.ngrok, pyngrok.conf
+import os
+from IPython.display import clear_output 
 
 # https://salsa.debian.org/apt-team/python-apt
 # https://apt-team.pages.debian.net/python-apt/library/index.html
@@ -355,9 +357,9 @@ import subprocess, secrets, pathlib
 vnc_passwd = "12345"[:8]
 vnc_viewonly_passwd = "12345"[:8]
 print("✂️"*24)
-print("VNC password: {}".format(vnc_passwd))
-print("VNC view only password: {}".format(vnc_viewonly_passwd))
-print("✂️"*24)
+#print("VNC password: {}".format(vnc_passwd))
+#print("VNC view only password: {}".format(vnc_viewonly_passwd))
+#print("✂️"*24)
 vncpasswd_input = "{0}\\n{1}".format(vnc_passwd, vnc_viewonly_passwd)
 vnc_user_dir = pathlib.Path.home().joinpath(".vnc")
 vnc_user_dir.mkdir(exist_ok=True)
