@@ -373,7 +373,7 @@ def _setupVNC():
   my_apt.installDebPackage("libjpeg-turbo.deb")
   my_apt.installDebPackage("virtualgl.deb")
   my_apt.installDebPackage("turbovnc.deb")
-  my_apt.installDebPackage("chrome.deb")
+  #my_apt.installDebPackage("chrome.deb")
 
   my_apt.installPkg("xfce4", "xfce4-terminal", "actionaz", "unzip", "xrdp", "firefox", "pciutils")
   my_apt.commit()
